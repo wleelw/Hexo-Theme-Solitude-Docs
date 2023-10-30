@@ -23,7 +23,7 @@ layout: doc
 
 ---
 
-![](https://bu.dusays.com/2023/10/29/653df2520b523.png)
+![](https://bu.dusays.com/2023/10/30/653f68c49a0e4.png)
 
 ## 欢迎使用 solitude 主题
 
