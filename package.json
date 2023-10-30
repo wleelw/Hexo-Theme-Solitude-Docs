@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "pnpm": "^8.10.0"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.24"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
