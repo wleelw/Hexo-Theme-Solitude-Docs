@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Bugbear 主题官方文档"
+  name: "Solitude 主题官方文档"
   text: "一个优雅的 Hexo 主题"
   tagline: 宁静致远，热爱生活。
   image: https://bu.dusays.com/2023/10/30/653f55e01aa83.png
@@ -16,7 +16,7 @@ hero:
       link: /intro
     - theme: alt
       text: Github
-      link: https://github.com/DuoSco/Hexo-Theme-bugbear
+      link: https://github.com/DuoSco/Hexo-Theme-solitude
 
 features:
   - title: 简单

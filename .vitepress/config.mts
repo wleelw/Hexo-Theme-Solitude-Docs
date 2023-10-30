@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Bugbear 主题官方文档",
-  description: "Hexo-Theme-Bugbear 主题的官方使用文档",
+  title: "Solitude 主题官方文档",
+  description: "Hexo-Theme-Solitude 主题的官方使用文档",
   head: [
     [
       'link', // 设置 favicon.ico，注意图片放在 public 文件夹下
@@ -34,13 +34,13 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/DuoSco/Hexo-Theme-bugbear' }
+      { icon: 'github', link: 'https://github.com/DuoSco/Hexo-Theme-solitude' }
     ],
     editLink: {
-      pattern: 'https://github.com/DuoSco/Hexo-Theme-Bugbear-Docs/edit/main/:path'
+      pattern: 'https://github.com/DuoSco/Hexo-Theme-Solitude-Docs/edit/main/:path'
     }
   },
   sitemap: {
-    hostname: 'https://bugbear-docs.sondy.top'
+    hostname: 'https://solitude-docs.sondy.top'
   },
 })
