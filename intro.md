@@ -35,7 +35,8 @@ Solitude 主题 是基于 Hexo 的一款 简单、美丽 的主题，由 [王卓
 
 一款基于 [Hexo-theme-Acrylic-Next](https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next) 修改的主題
 
-主题已建立交流群：![](https://bu.dusays.com/2023/10/31/6540ee019755a.png)
+主题已建立交流群：
+![](https://bu.dusays.com/2023/10/31/6540ee019755a.png)
 
 ## 功能特性
 
