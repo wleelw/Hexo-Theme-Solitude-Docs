@@ -30,6 +30,11 @@ export default defineConfig({
         text: '快速上手',
         items: [
           { text: '安装主题 💻', link: '/init' },
+          { text: '页面配置 📦', link: '/' },
+          { text: '进阶配置 🚀', link: '/', items: [
+              { text: '友情链接配置', link: '/page/links' },
+              { text: '关于页面配置', link: '/page/about' },
+            ] }
         ]
       }
     ],
