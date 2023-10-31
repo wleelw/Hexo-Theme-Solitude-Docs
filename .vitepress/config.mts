@@ -13,11 +13,11 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '王卓Sco', link: 'https://blog.sondy.top/' }
+      { text: '王卓Sco', link: 'https://blog.wzsco.top/' }
     ],
     footer: {
       message: 'Released under the GNU License.',
-      copyright: 'Copyright © 2023 by <a href="https://sondy.top/">王卓Sco</a>'
+      copyright: 'Copyright © 2023 by <a href="https://wzsco.top/">王卓Sco</a>'
     },
     sidebar: [
       {
@@ -41,6 +41,6 @@ export default defineConfig({
     }
   },
   sitemap: {
-    hostname: 'https://solitude-docs.sondy.top'
+    hostname: 'https://docs.wzsco.top'
   },
 })
