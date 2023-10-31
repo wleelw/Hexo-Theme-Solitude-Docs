@@ -7,7 +7,7 @@ export default defineConfig({
   head: [
     [
       'link', // 设置 favicon.ico，注意图片放在 public 文件夹下
-      { rel: 'icon', href: 'https://bu.dusays.com/2023/10/30/653f68c1e0ba2.png' }
+      { rel: 'icon', href: 'https://bu.dusays.com/2023/10/31/6540daf117d20.png' }
     ]
   ],
   themeConfig: {
