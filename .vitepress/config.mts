@@ -51,6 +51,8 @@ export default defineConfig({
                             {text: '我的装备页面配置', link: '/page/equipment'},
                             {text: '即刻短文配置', link: '/page/says'},
                             {text: '工具箱页面配置', link: '/page/tlink'},
+                            {text: '订阅页面配置', link: '/page/rss'},
+                            {text: '文章统计页面配置', link: '/page/echart'},
                         ]
                     },
                     {
