@@ -35,12 +35,12 @@ Solitude 主题 是基于 Hexo 的一款 简单、美丽 的主题，由 [王卓
 
 主题 GitHub: [https://github.com/DuoSco/Hexo-Theme-solitude](https://github.com/DuoSco/Hexo-Theme-solitude)
 
-预览: 👍 [https://solitude.wzsco.top](https://solitude.sondy.top)
+预览: 👍 [Demo](https://solitude.wzsco.top/) | [王卓Sco](https://blog.wzsco.top/)
 
 一款基于 [Hexo-theme-Acrylic-Next](https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next) 修改的主題
 
 主题已建立交流群：
-![](https://bu.dusays.com/2023/10/31/6540ee019755a.png)
+<img src="https://bu.dusays.com/2023/10/31/6540ee019755a.png" width='200px'>
 
 ## 功能特性
 
