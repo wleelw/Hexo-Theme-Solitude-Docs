@@ -49,11 +49,13 @@ timezone: 'Asia/Shanghai' # 时区（请自行查询）
 ::: tip
 ```yaml
 left:
-  菜单名:
     enable: true (false 则关闭左侧，nav图标不显示)
     menu:
-      menu 1:
+      菜单名:
         item 0:
+          icon: 显示图标
+          url: http(s)链接 
+        item 1:
           icon: 显示图标
           url: http(s)链接 
 ```
