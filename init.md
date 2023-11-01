@@ -3,6 +3,9 @@ title: 主题安装
 lang: zh-CN
 layout: doc
 ---
+
+# 主题安装
+
 ## 搭建 Hexo 博客
 
 如果你还没有 Hexo 博客，请按照 [Hexo 官方文档](https://hexo.io/zh-cn/docs/) 进行安装、建站。

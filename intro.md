@@ -3,6 +3,10 @@ title: 主题介绍
 layout: doc
 ---
 
+# 主题介绍
+
+---
+
 <div>
 <p align="center">
   <a title="Hexo Version" target="_blank" href="https://hexo.io/zh-cn/"><img alt="Hexo Version" src="https://img.shields.io/badge/Hexo-%3E%3D%205.3.0-orange?style=flat"></a>

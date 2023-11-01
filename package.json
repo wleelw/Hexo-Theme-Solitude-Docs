@@ -3,7 +3,8 @@
     "pnpm": "^8.10.0"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.24"
+    "vitepress": "^1.0.0-rc.24",
+    "vitepress-plugin-tabs": "^0.4.1"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
