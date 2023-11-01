@@ -45,6 +45,7 @@ export default defineConfig({
                     },
                     {
                         text: '进阶配置 🚀', link: '', collapsed: false, items: [
+                            {text: '全局配置', link: '/advanced/'},
                             {text: '友情链接配置', link: '/page/links'},
                             {text: '关于页面配置', link: '/page/about'},
                             {text: '朋友圈页面配置', link: '/page/circle'},
