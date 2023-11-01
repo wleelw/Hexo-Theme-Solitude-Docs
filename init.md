@@ -41,4 +41,12 @@ cp -rf ./themes/solitude/_config.yml ./_config.solitude.yml
 * windows  
   复制`/themes/solitude/_config.yml`​此文件到hexo根目录，并重命名为`_config.solitude.yml`​
 
-‍
+### 安装必要插件
+
+```shell
+npm install cheerio --save       # 统计图
+npm install hexo-wordcount --save	# 字数统计
+npm un hexo-renderer-marked  # 卸载默认markdown解析插件
+npm install hexo-renderer-markdown-it	# 安装另一个markdown解析器
+npm install @renbaoshuo/markdown-it-katex	# katex 支持
+```
