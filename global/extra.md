@@ -144,6 +144,102 @@ verify:
   baidu:
 ```
 
+## PWA
+
+PWA 全称为 `Progressive Web App`，中文译为渐进式Web APP，其目的是通过各种 Web 技术实现与原生 App 相近的用户体验。
+纵观现有 Web 应用与原生应用的对比差距，如离线缓存、沉浸式体验等等，可以通过已经实现的 Web 技术去弥补这些差距，最终达到与原生应用相近的用户体验效果。
+
+### 使用教程
+
+1. 在 `主题配置文件` 中开启 pwa 选项
+
+```yml
+# PWA
+# https://github.com/JLHwung/hexo-offline
+pwa:
+  enable: true
+  startup_image_enable: true
+```
+
+2. 在根目录下执行 `npm install hexo-offline --save` 或者 `yarn add hexo-offline` 进行安装hexo-offline插件
+
+3. 在根目录创建 `hexo-offline.config.cjs` 文件，并增加以下内容
+
+```js
+// offline config passed to workbox-build.
+module.exports = {
+	// 静态文件合集，如果你的站点使用了例如 webp 格式的文件，请将文件类型添加进去。
+	globPatterns: ["**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff}"],
+	globDirectory: "public",
+	swDest: "public/service-worker.js",
+	maximumFileSizeToCacheInBytes: 10485760, // 缓存的最大文件大小，以字节为单位。
+	skipWaiting: true,
+	clientsClaim: true,
+	manifestTransforms: [
+		async (manifestEntries, compilation) => {
+			const timestamp = new Date()
+				.toISOString()
+				.replace(/[-:.TZ]/g, ""); // 获取当前时间戳
+			manifestEntries.push({
+				url: "/",
+				revision: `index-${timestamp}`,
+			});
+			return {
+				manifest: manifestEntries
+			};
+		},
+	],
+};
+```
+
+4. 新建 `[根目录]/source/manifest.json` 文件，并新增以下内容
+
+```json
+{
+    "name": "Solitude",
+    "short_name": "Solitude",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "id": "/",
+    "icons": [
+        {
+            "src": "/img/pwa/192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/img/pwa/192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/img/pwa/512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/img/pwa/512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "splash_pages": null
+}
+```
+
+5. 全部步骤操作完成后，你可以通过Chrome控制台的 `Lighthouse` 检查 PWA 配置是否生效以及配置是否正确。
+
+### PWA图片素材
+
+你可以通过 [PWA：让你的网站变成桌面应用APP](https://meuicat.com/blog/80#PWA%E7%B4%A0%E6%9D%90) 文章下方进行获取，文章内包含了如何一键批量生成教程。
+
 ## CDN
 此部分切勿轻易修改，以保证稳定。
 ```yaml
