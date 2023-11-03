@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "gitalk": "^1.8.0",
+    "hexo-theme-solitude": "^1.0.0",
     "pnpm": "^8.10.0"
   },
   "devDependencies": {

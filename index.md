@@ -15,6 +15,9 @@ hero:
       text: 简介
       link: /intro
     - theme: alt
+      text: QQ群
+      link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=C8sJSH3E0Jmve_rK5lJ8U-_SLnVWNmgi&authKey=xo6hDn%2Flw5i4QcJiILAzOTi3WB19l5lxAGaVul5HCJwGgVa%2Fhd2YTCz1BZ2Pug%2BW&noverify=0&group_code=773016811
+    - theme: alt
       text: Github
       link: https://github.com/DuoSco/Hexo-Theme-solitude
 
