@@ -1,29 +1,38 @@
 {
-  "hash": "aee7b688",
-  "browserHash": "f8ff338d",
+  "hash": "39731f22",
+  "browserHash": "2af43689",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "4f309bd7",
+      "fileHash": "c52e1f0c",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "86ec8382",
+      "fileHash": "e3165a4f",
       "needsInterop": false
     },
     "vitepress-plugin-tabs/client": {
       "src": "../../../node_modules/vitepress-plugin-tabs/src/client/index.ts",
       "file": "vitepress-plugin-tabs_client.js",
-      "fileHash": "1143ab8a",
+      "fileHash": "106eb801",
       "needsInterop": false
+    },
+    "gitalk": {
+      "src": "../../../node_modules/gitalk/dist/gitalk.js",
+      "file": "gitalk.js",
+      "fileHash": "be7ce9f1",
+      "needsInterop": true
     }
   },
   "chunks": {
     "chunk-SDVEPHC6": {
       "file": "chunk-SDVEPHC6.js"
+    },
+    "chunk-76J2PTFD": {
+      "file": "chunk-76J2PTFD.js"
     }
   }
 }

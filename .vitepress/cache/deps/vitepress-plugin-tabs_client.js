@@ -2,6 +2,7 @@ import {
   reactive,
   watch
 } from "./chunk-SDVEPHC6.js";
+import "./chunk-76J2PTFD.js";
 
 // node_modules/vitepress-plugin-tabs/src/client/index.ts
 import PluginTabs from "/Users/sco/Documents/GitHub/Hexo-Theme-Bugbear-Docs/node_modules/vitepress-plugin-tabs/src/client/PluginTabs.vue";
