@@ -1,4 +1,4 @@
-import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.e7e1adb3.js";const d=JSON.parse('{"title":"基本配置","description":"","frontmatter":{"title":"基本配置"},"headers":[],"relativePath":"global/base.md","filePath":"global/base.md"}'),p={name:"global/base.md"},o=l(`<h1 id="基本配置" tabindex="-1">基本配置 <a class="header-anchor" href="#基本配置" aria-label="Permalink to &quot;基本配置&quot;">​</a></h1><h2 id="语言" tabindex="-1">语言 <a class="header-anchor" href="#语言" aria-label="Permalink to &quot;语言&quot;">​</a></h2><p>修改站点配置文件<code>_config.yml</code>，不是主题配置文件。</p><p>默认语言是 en</p><p>主题目前支持两种语言</p><p>zh-CN (简体中文)</p><p>en-US (美式英文)</p><h2 id="site-网站信息" tabindex="-1">Site （网站信息） <a class="header-anchor" href="#site-网站信息" aria-label="Permalink to &quot;Site （网站信息）&quot;">​</a></h2><p>修改网站各种资料，例如标题、副标题和邮箱等个人资料，请修改博客根目录的 <code>_config.yml</code> 。</p><div class="language-yaml vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">yaml</span><pre class="shiki github-dark vp-code-dark"><code><span class="line"><span style="color:#85E89D;">title</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">王卓Sco</span><span style="color:#E1E4E8;">  </span><span style="color:#6A737D;"># 博客标题</span></span>
+import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.e7e1adb3.js";const F=JSON.parse('{"title":"基本配置","description":"","frontmatter":{"title":"基本配置"},"headers":[],"relativePath":"global/base.md","filePath":"global/base.md"}'),p={name:"global/base.md"},o=l(`<h1 id="基本配置" tabindex="-1">基本配置 <a class="header-anchor" href="#基本配置" aria-label="Permalink to &quot;基本配置&quot;">​</a></h1><h2 id="语言" tabindex="-1">语言 <a class="header-anchor" href="#语言" aria-label="Permalink to &quot;语言&quot;">​</a></h2><p>修改站点配置文件<code>_config.yml</code>，不是主题配置文件。</p><p>默认语言是 en</p><p>主题目前支持两种语言</p><p>zh-CN (简体中文)</p><p>en-US (美式英文)</p><h2 id="site-网站信息" tabindex="-1">Site （网站信息） <a class="header-anchor" href="#site-网站信息" aria-label="Permalink to &quot;Site （网站信息）&quot;">​</a></h2><p>修改网站各种资料，例如标题、副标题和邮箱等个人资料，请修改博客根目录的 <code>_config.yml</code> 。</p><div class="language-yaml vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">yaml</span><pre class="shiki github-dark vp-code-dark"><code><span class="line"><span style="color:#85E89D;">title</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">王卓Sco</span><span style="color:#E1E4E8;">  </span><span style="color:#6A737D;"># 博客标题</span></span>
 <span class="line"><span style="color:#85E89D;">subtitle</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&#39;宁静致远，热爱生活。&#39;</span><span style="color:#E1E4E8;">  </span><span style="color:#6A737D;"># 博客子标题</span></span>
 <span class="line"><span style="color:#85E89D;">description</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&#39;一个平凡但不拘于世的不羁少年&#39;</span><span style="color:#E1E4E8;"> </span><span style="color:#6A737D;"># 博客简介</span></span>
 <span class="line"><span style="color:#85E89D;">keywords</span><span style="color:#E1E4E8;">: </span><span style="color:#9ECBFF;">&#39;王卓Sco,Sco,Solitude&#39;</span><span style="color:#E1E4E8;">  </span><span style="color:#6A737D;"># 博客关键词</span></span>
@@ -297,7 +297,33 @@ import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.e7e1adb3.js";const d=
 <span class="line"><span style="color:#E1E4E8;">  </span><span style="color:#85E89D;">toc</span><span style="color:#E1E4E8;">: </span></span>
 <span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#85E89D;">post</span><span style="color:#E1E4E8;">: </span><span style="color:#79B8FF;">true</span><span style="color:#E1E4E8;"> </span><span style="color:#6A737D;"># 在文章页显示</span></span>
 <span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#85E89D;">page</span><span style="color:#E1E4E8;">: </span><span style="color:#79B8FF;">false</span><span style="color:#E1E4E8;"> </span><span style="color:#6A737D;"># 在任意页显示</span></span>
-<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8;">  </span><span style="color:#6A737D;"># 多功能模块</span></span>
+<span class="line"><span style="color:#E1E4E8;">  </span><span style="color:#85E89D;">module</span><span style="color:#E1E4E8;">:</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#6A737D;"># 公众号卡片</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#85E89D;">platform</span><span style="color:#E1E4E8;">:</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#85E89D;">enable</span><span style="color:#E1E4E8;">: </span><span style="color:#79B8FF;">false</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#6A737D;"># 卡片右下角头像</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#85E89D;">favicon_img</span><span style="color:#E1E4E8;">: </span><span style="color:#6A737D;"># 填图片url</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#6A737D;"># 卡片正面图片</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#85E89D;">front_img</span><span style="color:#E1E4E8;">: </span><span style="color:#6A737D;"># 填图片url</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#6A737D;"># 卡片反面图片</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#85E89D;">behind_img</span><span style="color:#E1E4E8;">: </span><span style="color:#6A737D;"># 填图片url</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#6A737D;"># 是否仅在主页显示</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#85E89D;">part</span><span style="color:#E1E4E8;">: </span><span style="color:#79B8FF;">false</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#6A737D;"># 个性定位</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#85E89D;">welcome</span><span style="color:#E1E4E8;">:</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#85E89D;">enable</span><span style="color:#E1E4E8;">: </span><span style="color:#79B8FF;">false</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#85E89D;">title</span><span style="color:#E1E4E8;">: </span><span style="color:#6A737D;">#【选填】留空将默认显示为：来访者</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#85E89D;">icon</span><span style="color:#E1E4E8;">: </span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#6A737D;"># 是否仅在主页显示</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#85E89D;">part</span><span style="color:#E1E4E8;">: </span><span style="color:#79B8FF;">false</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#6A737D;"># 那年今日</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#85E89D;">history</span><span style="color:#E1E4E8;">:</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#85E89D;">enable</span><span style="color:#E1E4E8;">: </span><span style="color:#79B8FF;">false</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#85E89D;">title</span><span style="color:#E1E4E8;">: </span><span style="color:#6A737D;">#【选填】留空将默认显示为：那年今日</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#85E89D;">icon</span><span style="color:#E1E4E8;">: </span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#6A737D;"># 是否仅在主页显示</span></span>
+<span class="line"><span style="color:#E1E4E8;">      </span><span style="color:#85E89D;">part</span><span style="color:#E1E4E8;">: </span><span style="color:#79B8FF;">false</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#E1E4E8;">  </span><span style="color:#6A737D;"># 建站信息</span></span>
 <span class="line"><span style="color:#E1E4E8;">  </span><span style="color:#85E89D;">siteinfo</span><span style="color:#E1E4E8;">:</span></span>
@@ -352,7 +378,33 @@ import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.e7e1adb3.js";const d=
 <span class="line"><span style="color:#24292E;">  </span><span style="color:#22863A;">toc</span><span style="color:#24292E;">: </span></span>
 <span class="line"><span style="color:#24292E;">    </span><span style="color:#22863A;">post</span><span style="color:#24292E;">: </span><span style="color:#005CC5;">true</span><span style="color:#24292E;"> </span><span style="color:#6A737D;"># 在文章页显示</span></span>
 <span class="line"><span style="color:#24292E;">    </span><span style="color:#22863A;">page</span><span style="color:#24292E;">: </span><span style="color:#005CC5;">false</span><span style="color:#24292E;"> </span><span style="color:#6A737D;"># 在任意页显示</span></span>
-<span class="line"></span>
+<span class="line"><span style="color:#24292E;">  </span><span style="color:#6A737D;"># 多功能模块</span></span>
+<span class="line"><span style="color:#24292E;">  </span><span style="color:#22863A;">module</span><span style="color:#24292E;">:</span></span>
+<span class="line"><span style="color:#24292E;">    </span><span style="color:#6A737D;"># 公众号卡片</span></span>
+<span class="line"><span style="color:#24292E;">    </span><span style="color:#22863A;">platform</span><span style="color:#24292E;">:</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#22863A;">enable</span><span style="color:#24292E;">: </span><span style="color:#005CC5;">false</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#6A737D;"># 卡片右下角头像</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#22863A;">favicon_img</span><span style="color:#24292E;">: </span><span style="color:#6A737D;"># 填图片url</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#6A737D;"># 卡片正面图片</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#22863A;">front_img</span><span style="color:#24292E;">: </span><span style="color:#6A737D;"># 填图片url</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#6A737D;"># 卡片反面图片</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#22863A;">behind_img</span><span style="color:#24292E;">: </span><span style="color:#6A737D;"># 填图片url</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#6A737D;"># 是否仅在主页显示</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#22863A;">part</span><span style="color:#24292E;">: </span><span style="color:#005CC5;">false</span></span>
+<span class="line"><span style="color:#24292E;">    </span><span style="color:#6A737D;"># 个性定位</span></span>
+<span class="line"><span style="color:#24292E;">    </span><span style="color:#22863A;">welcome</span><span style="color:#24292E;">:</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#22863A;">enable</span><span style="color:#24292E;">: </span><span style="color:#005CC5;">false</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#22863A;">title</span><span style="color:#24292E;">: </span><span style="color:#6A737D;">#【选填】留空将默认显示为：来访者</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#22863A;">icon</span><span style="color:#24292E;">: </span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#6A737D;"># 是否仅在主页显示</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#22863A;">part</span><span style="color:#24292E;">: </span><span style="color:#005CC5;">false</span></span>
+<span class="line"><span style="color:#24292E;">    </span><span style="color:#6A737D;"># 那年今日</span></span>
+<span class="line"><span style="color:#24292E;">    </span><span style="color:#22863A;">history</span><span style="color:#24292E;">:</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#22863A;">enable</span><span style="color:#24292E;">: </span><span style="color:#005CC5;">false</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#22863A;">title</span><span style="color:#24292E;">: </span><span style="color:#6A737D;">#【选填】留空将默认显示为：那年今日</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#22863A;">icon</span><span style="color:#24292E;">: </span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#6A737D;"># 是否仅在主页显示</span></span>
+<span class="line"><span style="color:#24292E;">      </span><span style="color:#22863A;">part</span><span style="color:#24292E;">: </span><span style="color:#005CC5;">false</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#24292E;">  </span><span style="color:#6A737D;"># 建站信息</span></span>
 <span class="line"><span style="color:#24292E;">  </span><span style="color:#22863A;">siteinfo</span><span style="color:#24292E;">:</span></span>
@@ -430,4 +482,4 @@ import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.e7e1adb3.js";const d=
 <span class="line"><span style="color:#22863A;">related_post</span><span style="color:#24292E;">:</span></span>
 <span class="line"><span style="color:#24292E;">  </span><span style="color:#22863A;">enable</span><span style="color:#24292E;">: </span><span style="color:#005CC5;">true</span><span style="color:#24292E;">  </span><span style="color:#6A737D;"># 是否开启推荐</span></span>
 <span class="line"><span style="color:#24292E;">  </span><span style="color:#22863A;">limit</span><span style="color:#24292E;">: </span><span style="color:#005CC5;">2</span><span style="color:#24292E;"> </span><span style="color:#6A737D;"># 推荐文章数量</span></span>
-<span class="line"><span style="color:#24292E;">  </span><span style="color:#22863A;">date_type</span><span style="color:#24292E;">: </span><span style="color:#032F62;">created</span><span style="color:#24292E;"> </span><span style="color:#6A737D;"># 根据创建日期（created）或是更新日期（updated）</span></span></code></pre></div>`,37),e=[o];function c(t,r,E,y,i,D){return n(),a("div",null,e)}const u=s(p,[["render",c]]);export{d as __pageData,u as default};
+<span class="line"><span style="color:#24292E;">  </span><span style="color:#22863A;">date_type</span><span style="color:#24292E;">: </span><span style="color:#032F62;">created</span><span style="color:#24292E;"> </span><span style="color:#6A737D;"># 根据创建日期（created）或是更新日期（updated）</span></span></code></pre></div>`,37),e=[o];function c(t,r,E,y,i,D){return n(),a("div",null,e)}const d=s(p,[["render",c]]);export{F as __pageData,d as default};

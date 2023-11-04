@@ -257,7 +257,33 @@ aside:
   toc: 
     post: true # 在文章页显示
     page: false # 在任意页显示
-
+  # 多功能模块
+  module:
+    # 公众号卡片
+    platform:
+      enable: false
+      # 卡片右下角头像
+      favicon_img: # 填图片url
+      # 卡片正面图片
+      front_img: # 填图片url
+      # 卡片反面图片
+      behind_img: # 填图片url
+      # 是否仅在主页显示
+      part: false
+    # 个性定位
+    welcome:
+      enable: false
+      title: #【选填】留空将默认显示为：来访者
+      icon: 
+      # 是否仅在主页显示
+      part: false
+    # 那年今日
+    history:
+      enable: false
+      title: #【选填】留空将默认显示为：那年今日
+      icon: 
+      # 是否仅在主页显示
+      part: false
 
   # 建站信息
   siteinfo:

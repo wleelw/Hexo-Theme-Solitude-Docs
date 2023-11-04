@@ -1,29 +1,29 @@
 {
-  "hash": "ccf908f4",
-  "browserHash": "3c9fc8ef",
+  "hash": "bfa479ea",
+  "browserHash": "40cd9605",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "42a950fe",
+      "fileHash": "6d4298aa",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "e9538c5c",
+      "fileHash": "cd38c2f9",
       "needsInterop": false
     },
     "vitepress-plugin-tabs/client": {
       "src": "../../../node_modules/vitepress-plugin-tabs/src/client/index.ts",
       "file": "vitepress-plugin-tabs_client.js",
-      "fileHash": "e5daed4a",
+      "fileHash": "d0829a99",
       "needsInterop": false
     },
     "gitalk": {
       "src": "../../../node_modules/gitalk/dist/gitalk.js",
       "file": "gitalk.js",
-      "fileHash": "739da8e1",
+      "fileHash": "31811be8",
       "needsInterop": true
     }
   },
