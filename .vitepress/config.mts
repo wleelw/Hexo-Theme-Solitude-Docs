@@ -9,6 +9,15 @@ export default defineConfig({
         [
             'link', // 设置 favicon.ico，注意图片放在 public 文件夹下
             {rel: 'icon', href: 'https://bu.dusays.com/2023/10/31/6540daf117d20.png'}
+        ],
+        [
+            'script',
+            {charset: "UTF-8", id: "LA_COLLECT", src: "//sdk.51.la/js-sdk-pro.min.js"}
+        ],
+        [
+            'script',
+            {},
+            `LA.init({id:"3F15j2vtdTo7PPcN",ck:"3F15j2vtdTo7PPcN"})`
         ]
     ],
     themeConfig: {
