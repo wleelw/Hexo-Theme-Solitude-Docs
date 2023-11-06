@@ -45,13 +45,6 @@ cc:
 locate:
 ---
 ```
-== 即刻、工具箱 页面
-```markdown
----
-tipl:
-tipr:
----
-```
 :::
 
 | 写法     | 解释                           |
@@ -67,5 +60,3 @@ tipr:
 | cc       | 【可选】版权（默认为原创）可选值：转载或翻译、原创    |
 | katex    | 【可选】显示 katex(默认 false)       |
 | locate   | 【可选】文章创作地点                   |
-| tipl     | 【可选】banner左下角文字              |
-| tipr     | 【可选】banner右下角文字              |

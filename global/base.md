@@ -49,7 +49,7 @@ timezone: 'Asia/Shanghai' # 时区（请自行查询）
 ::: tip
 ```yaml
 left:
-    enable: true (false 则关闭左侧，nav图标不显示)
+    enable: true #false则关闭左侧，nav图标不显示
     menu:
       菜单名:
         item 0:
@@ -105,7 +105,7 @@ left:
 ```yaml
 menu:
   菜单名:
-    url: http(s)链接 / false(为false则不需要跳转)
+    url: http(s)链接 # false则不需要跳转
     child: # 是否有子菜单，可不填
       menu 1:
       url: http(s)链接
@@ -140,9 +140,7 @@ icon:
 ```
 
 ::: tip
-可自行在`iconfont`、'codesign'创建图标并生成css链接
-
-后续可能还将更新……
+可自行在`iconfont`、`codesign`创建图标并生成css链接
 :::
 
 ## 首页顶部配置
@@ -214,7 +212,7 @@ hometop:
 ```yaml
 # 侧边栏
 aside:
-  # 值：about（关于我）、power（爱发电）、newestPost（最新文章）、allInfo（网站信息）、flip（公众号二维码）
+  # 值：about（关于我）、power（爱发电）、newestPost（最新文章）、allInfo（网站信息）、flip（公众号二维码）、welcome（个性定位）、history（那年今日）
   home: # 在主页显示的侧边栏信息
     noSticky: "about"
     Sticky: "allInfo"
@@ -250,40 +248,27 @@ aside:
       text: 了解更多
       url: /about/
   # 公众号二维码
-  flip: # 填url
+  flip:
+    favicon: # 右下角头像
     face: # 正面
     backface: # 鼠标悬停翻转图片
+  # 个性定位
+  welcome:
+    enable: false # 设置为true（开启）后请到上方添加home、post、page侧边栏排序显示位
+    title: #【选填】留空将默认显示为：来访者
+    icon:
+    key: # 腾讯key
+    longitude: 112.8455033596802 # 经度
+    Latitude: 26.430308353457896 # 纬度
+  # 那年今日
+  history:
+    enable: false # 设置为true（开启）后请到上方添加home、post、page侧边栏排序显示位置
+    title: #【选填】留空将默认显示为：那年今日
+    icon: 
   # 页面目录
   toc: 
     post: true # 在文章页显示
     page: false # 在任意页显示
-  # 多功能模块
-  module:
-    # 公众号卡片
-    platform:
-      enable: false
-      # 卡片右下角头像
-      favicon_img: # 填图片url
-      # 卡片正面图片
-      front_img: # 填图片url
-      # 卡片反面图片
-      behind_img: # 填图片url
-      # 是否仅在主页显示
-      part: false
-    # 个性定位
-    welcome:
-      enable: false
-      title: #【选填】留空将默认显示为：来访者
-      icon: 
-      # 是否仅在主页显示
-      part: false
-    # 那年今日
-    history:
-      enable: false
-      title: #【选填】留空将默认显示为：那年今日
-      icon: 
-      # 是否仅在主页显示
-      part: false
 
   # 建站信息
   siteinfo:
@@ -295,6 +280,12 @@ aside:
     runtimeenable: true # 建站时间
     runtime: '2023-04-20 00:00:00' # 格式：yyyy-MM-dd hh-mm-ss
 ```
+
+::: tip 关于侧边栏工具
+
+个性定位的key获取可查看此篇教程文章：[Butterfly的魔改教程：个性定位信息](https://meuicat.com/blog/42#%E4%B8%AA%E6%80%A7%E5%AE%9A%E4%BD%8D%E6%AC%A2%E8%BF%8E%E8%AF%AD)，而经纬度可前往此处获取：[百度api](http://jingweidu.757dy.com/)
+:::
+
 
 ::: warning
 建站信息：

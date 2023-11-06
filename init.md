@@ -16,16 +16,70 @@ layout: doc
 ::: tabs key:init
 
 == Git
-在博客根目录里安装稳定版【推荐】
+
+- GitHub 稳定版【推荐】
+
+在博客根目录里执行：
 
 ```powershell
 git clone -b main https://github.com/DuoSco/Hexo-theme-solitude.git themes/solitude
 ```
-== NPM
-在博客根目录里安装稳定版【推荐】（NPM发布均为稳定版）
+
+- Gitee 稳定版
+
+在博客根目录里执行：
+
+```powershell
+git clone -b master https://gitee.com/yife68/hexo-theme-solitude.git themes/solitude
 ```
+
+- GitHub 开发版
+
+如果想要安装比较新的 `dev` 分支，可以在博客根目录里执行：
+
+```powershell
+git clone -b dev https://github.com/DuoSco/Hexo-theme-solitude.git themes/solitude
+```
+
+- 升级方法
+
+在主题目录下运行：
+
+```powershell
+git pull
+```
+
+**<font color="red">注意：</font>开发版可能存在 bug，追求稳定的请安装稳定版**
+
+== NPM
+
+- 稳定版【推荐】
+
+在博客根目录里执行：
+
+```powershell
 npm install hexo-theme-solitude
 ```
+
+- 升级方法
+
+在博客根目录里执行：
+
+```powershell
+npm update hexo-theme-solitude
+```
+
+**<font color="red">注意：</font>此方法只支持 Hexo 5.0.0 以上版本。通过 npm 安装并不会在 themes 里生成主题文件夹，而是在 node_modules 里生成**
+
+== Release
+
+- GitHub【推荐】
+
+下载 [最新 release 版本](https://github.com/DuoSco/Hexo-theme-solitude/releases) 解压到 `themes` 目录，并将解压出的文件夹重命名为 `solitude` 即可
+
+- Gitee
+
+下载 [最新 release 版本](https://gitee.com/yife68/hexo-theme-solitude/releases/) 解压到 `themes` 目录，并将解压出的文件夹重命名为 `solitude` 即可
 :::
 
 ## 应用主题
@@ -61,6 +115,12 @@ cp -rf ./node_modules/hexo-theme-solitude/_config.yml ./_config.solitude.yml
   复制`/node_modules/hexo-theme-solitude/_config.yml`​此文件到hexo根目录，并重命名为`_config.solitude.yml`​
 :::
 
+:::tip
+- 根目录的 `_config.solitude.yml` 的配置都是高优先级，因此，渲染时会优先采用此文件的配置项内容
+- 在更新主题时可能会存在配置变更，请注意更新说明，可能需要手动对 `_config.solitude.yml` 同步修改
+- 想查看覆盖配置有没有生效，可以通过 `hexo g --debug` 查看命令行输出
+:::
+
 
 ## 安装必要插件
 
@@ -74,17 +134,21 @@ npm install @renbaoshuo/markdown-it-katex	# katex 支持
 
 ## 本地启动
 
-1. 修改站点配置文件_config.yml，不是主题配置文件。
-  主题目前支持两种语言: zh-CN (简体中文)、en-US (美式英文)
-  ```yaml
-   language: zh-CN # 语言
-  ```
-2. 运行
-  ```shell
-  hexo g && hexo s
-  ```
-3. 预览
-  ![]()
+1. **<font color="red">注意！注意！注意！</font>请确保 `source/_posts` 目录下至少有一篇文章，否则运行将会报错！！！**
+
+2. 修改站点配置文件_config.yml，不是主题配置文件
+
+主题目前支持两种语言: zh-CN (简体中文)、en-US (美式英文)
+
+```yaml
+  language: zh-CN # 语言
+```
+
+3. 运行
+
+```shell
+hexo clen && hexo g && hexo s --debug
+```
 
 ## 版本号释义
 

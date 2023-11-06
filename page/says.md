@@ -66,8 +66,7 @@ title: 即刻短文配置
 | video.player | 原生视频播放器，直接填写你的视频直链即可 |
 | video.bilibili | 哔哩哔哩播放器，填入外嵌视频地址即可（注意：如果不需要自动播放，就在你的链接后面加上`&autoplay=0`） |
 
-::: tip
-记得把首页中的bbtime打开哦。
+::: danger 需要将首页中的 `bbtime` 配置项打开
 ```yaml
 # 首页顶部样式
 hometop:
