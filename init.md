@@ -8,6 +8,14 @@ layout: doc
 
 ## 搭建 Hexo 博客
 
+::: danger
+主题还未适配 Hexo 7.0.0，如新安装的 Hexo-Cli，请在初始化完后手动将Hexo降级至 6.3.0 版本，我们将在不久后进行适配。
+```shell
+hexo init # 初始化
+npm install hexo@6.3.0 # 将 Hexo 手动降级至 6.3.0
+```
+:::
+
 如果你还没有 Hexo 博客，请按照 [Hexo 官方文档](https://hexo.io/zh-cn/docs/) 进行安装、建站。
 
 
@@ -134,9 +142,11 @@ npm install @renbaoshuo/markdown-it-katex	# katex 支持
 
 ## 本地启动
 
-1. **<font color="red">注意！注意！注意！</font>请确保 `source/_posts` 目录下至少有一篇文章，否则运行将会报错！！！**
+::: danger
+请确保 `source/_posts` 目录下至少有一篇文章，否则运行将会报错。
+:::
 
-2. 修改站点配置文件_config.yml，不是主题配置文件
+1. 修改站点配置文件_config.yml，不是主题配置文件
 
 主题目前支持两种语言: zh-CN (简体中文)、en-US (美式英文)
 
@@ -144,7 +154,7 @@ npm install @renbaoshuo/markdown-it-katex	# katex 支持
   language: zh-CN # 语言
 ```
 
-3. 运行
+2. 运行
 
 ```shell
 hexo clen && hexo g && hexo s --debug

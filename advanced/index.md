@@ -14,6 +14,7 @@ comment:
     envId: https://twikoo.sondy.top # twikoo 部署地址
     path: window.location.pathname  # 
     lang: 'zh-CN' # 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
+    accessToken:  # accessToken 
 ```
 
 ::: tip
