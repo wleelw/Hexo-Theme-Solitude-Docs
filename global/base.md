@@ -283,7 +283,10 @@ aside:
 
 ::: tip 关于侧边栏工具
 
-个性定位的key获取可查看此篇教程文章：[Butterfly的魔改教程：个性定位信息](https://meuicat.com/blog/42#%E4%B8%AA%E6%80%A7%E5%AE%9A%E4%BD%8D%E6%AC%A2%E8%BF%8E%E8%AF%AD)，而经纬度可前往此处获取：[百度api](http://jingweidu.757dy.com/)
+个性定位的key获取可查看此篇教程文章：[Butterfly的魔改教程：个性定位信息](https://meuicat.com/blog/42#%E4%B8%AA%E6%80%A7%E5%AE%9A%E4%BD%8D%E6%AC%A2%E8%BF%8E%E8%AF%AD)，而经纬度可前往此处获取：[百度API](http://jingweidu.757dy.com/)
+个性定位Key获取：
+    1. 进入 [腾讯位置服务](https://lbs.qq.com/dev/console/application/mine) 应用管理界面
+    2. 点击 创建应用 ，应用名称和类型随便填
 :::
 
 
