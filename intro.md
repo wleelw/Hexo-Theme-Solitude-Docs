@@ -10,15 +10,15 @@ layout: doc
 <div>
 <p align="center">
   <a title="Hexo Version" target="_blank" href="https://hexo.io/zh-cn/"><img alt="Hexo Version" src="https://img.shields.io/badge/Hexo-%3E%3D%205.3.0-orange?style=flat"></a>
-  <a title="Node Version" target="_blank" href="https://nodejs.org/zh-cn/"><img alt="Node Version" src="https://img.shields.io/badge/Node-%3E%3D%2010.13.0-yellowgreen?style=flat"></a>
-  <a title="npm Downloads" target="_blank" href="https://www.npmjs.com/package/hexo-theme-solitude"><img alt="GitHub Forks" src="https://img.shields.io/npm/dt/hexo-theme-solitude?color=red&label=npm"></a>
-  <a title="License" target="_blank" href="https://github.com/DuoSco/Hexo-theme-solitude/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/DuoSco/Hexo-Theme-solitude.svg?style=flat"></a>
-  <a title="GitHub Release" target="_blank" href="https://github.com/DuoSco/Hexo-theme-solitude/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/DuoSco/Hexo-theme-solitude?style=flat"></a>
-  <a title="GitHub Commits" target="_blank" href="https://github.com/DuoSco/Hexo-Theme-solitude/commits/master"><img alt="GitHub Commits" src="https://img.shields.io/github/commit-activity/m/DuoSco/Hexo-Theme-solitude.svg?style=flat&color=brightgreen&label=commits"></a>
+  &nbsp;<a title="Node Version" target="_blank" href="https://nodejs.org/zh-cn/"><img alt="Node Version" src="https://img.shields.io/badge/Node-%3E%3D%2010.13.0-yellowgreen?style=flat"></a>
+  &nbsp;<a title="npm Downloads" target="_blank" href="https://www.npmjs.com/package/hexo-theme-solitude"><img alt="GitHub Forks" src="https://img.shields.io/npm/dt/hexo-theme-solitude?color=red&label=npm"></a>
+  &nbsp;<a title="License" target="_blank" href="https://github.com/DuoSco/Hexo-theme-solitude/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/DuoSco/Hexo-Theme-solitude.svg?style=flat"></a>
+  &nbsp;<a title="GitHub Release" target="_blank" href="https://github.com/DuoSco/Hexo-theme-solitude/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/DuoSco/Hexo-theme-solitude?style=flat"></a>
+  &nbsp;<a title="GitHub Commits" target="_blank" href="https://github.com/DuoSco/Hexo-Theme-solitude/commits/master"><img alt="GitHub Commits" src="https://img.shields.io/github/commit-activity/m/DuoSco/Hexo-Theme-solitude.svg?style=flat&color=brightgreen&label=commits"></a>
   <br>
   <a title="GitHub Watchers" target="_blank" href="https://github.com/DuoSco/Hexo-Theme-solitude/watchers"><img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/DuoSco/Hexo-Theme-solitude.svg?label=Watchers&style=social"></a>
-  <a title="GitHub Stars" target="_blank" href="https://github.com/DuoSco/Hexo-Theme-solitude/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/DuoSco/Hexo-Theme-solitude.svg?label=Stars&style=social"></a>
-  <a title="GitHub Forks" target="_blank" href="https://github.com/DuoSco/Hexo-Theme-solitude/network/members"><img alt="GitHub Forks" src="https://img.shields.io/github/forks/DuoSco/Hexo-Theme-solitude.svg?label=Forks&style=social"></a>
+  &nbsp;<a title="GitHub Stars" target="_blank" href="https://github.com/DuoSco/Hexo-Theme-solitude/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/DuoSco/Hexo-Theme-solitude.svg?label=Stars&style=social"></a>
+  &nbsp;<a title="GitHub Forks" target="_blank" href="https://github.com/DuoSco/Hexo-Theme-solitude/network/members"><img alt="GitHub Forks" src="https://img.shields.io/github/forks/DuoSco/Hexo-Theme-solitude.svg?label=Forks&style=social"></a>
 </p>
 </div>
 

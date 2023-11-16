@@ -4,6 +4,7 @@ import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 import './custom.css'
 import MyLayout from "./MyLayout.vue";
 
+
 export default {
     extends: DefaultTheme,
     enhanceApp({ app }) {

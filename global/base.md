@@ -46,22 +46,26 @@ timezone: 'Asia/Shanghai' # 时区（请自行查询）
           icon: https://bu.dusays.com/2023/10/31/6540daf117d20.png
           url: https://github.com/DuoSco/Hexo-Theme-solitude
 ```
+
 ::: tip
+
 ```yaml
 left:
-    enable: true #false则关闭左侧，nav图标不显示
-    menu:
-      菜单名:
-        item 0:
-          icon: 显示图标
-          url: http(s)链接 
-        item 1:
-          icon: 显示图标
-          url: http(s)链接 
+  enable: true #false则关闭左侧，nav图标不显示
+  menu:
+    菜单名:
+      item 0:
+        icon: 显示图标
+        url: http(s)链接
+      item 1:
+        icon: 显示图标
+        url: http(s)链接 
 ```
+
 :::
 
 ### 导航栏内容
+
 ```yaml
   menu:
     文库:
@@ -101,7 +105,9 @@ left:
           url: /about/
           icon: ri-user-smile-fill
 ```
+
 ::: tip
+
 ```yaml
 menu:
   菜单名:
@@ -111,6 +117,7 @@ menu:
       url: http(s)链接
       icon: 显示图标
 ```
+
 :::
 
 ### 导航栏右侧
@@ -122,21 +129,19 @@ menu:
     random: true        #随机文章
     console: true       #控制台
 ```
-::: tip
-```yaml
-  right:
-    travellings: true   #开往
-    random: true        #随机文章
-    console: true       #控制台
-```
-:::
+
+| 参数          | 解释       |
+|-------------|----------|
+| travellings | 显示开往按钮   |
+| random      | 显示随机文章按钮 |
+| console     | 显示中控台按钮  |
 
 ## 图标配置
 
 ```yaml
 # 自定义icon
 icon:
-    customicon: https://cdn3.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css
+  customicon: https://cdn3.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css
 ```
 
 ::: tip
@@ -154,30 +159,30 @@ hometop:
     url: WWW.SONDY.TOP # title下方小字
     # 轮播icon，根据需求进行修改
     icon:
-        HTML:
-          img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/HTML.png
-          color: '#e9572b'
-        JS:
-          img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/JS.png
-          color: '#f7cb4f'
-        Kotlin:
-          img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/kotlin-logo.svg
-          color: '#ffffff'
-        Docker:
-          img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/docker.png
-          color: '#57b6e6'
-        Flutter:
-          img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/flutter.png
-          color: '#ffffff'
-        WebPack:
-          img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/webpack.png
-          color: '#2e3a41'
-        Git:
-          img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/git.png
-          color: '#df5b40'
-        VS:
-          img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/vs-logo.svg
-          color: '#ffffff'
+      HTML:
+        img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/HTML.png
+        color: '#e9572b'
+      JS:
+        img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/JS.png
+        color: '#f7cb4f'
+      Kotlin:
+        img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/kotlin-logo.svg
+        color: '#ffffff'
+      Docker:
+        img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/docker.png
+        color: '#57b6e6'
+      Flutter:
+        img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/flutter.png
+        color: '#ffffff'
+      WebPack:
+        img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/webpack.png
+        color: '#2e3a41'
+      Git:
+        img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/git.png
+        color: '#df5b40'
+      VS:
+        img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/vs-logo.svg
+        color: '#ffffff'
 
   # 顶部三大分类
   categoryGroup:
@@ -186,8 +191,8 @@ hometop:
       icon: ri-git-repository-fill # 图标
       url: /tags/精选/  # 链接/路径
     G2:
-      name: 热门文章 
-      icon: ri-fire-fill  
+      name: 热门文章
+      icon: ri-fire-fill
       url: /categories/热门/
     G3:
       name: 实用教程
@@ -203,6 +208,31 @@ hometop:
     color: '#ff0000' # 背景颜色
 ```
 
+::: tabs
+
+== bbtime
+
+首页是否显示即刻
+
+== banner
+
+| 参数     | 解释          |
+|--------|-------------|
+| enable | 是否开启        |
+| title  | 左上角显示文字     |
+| url    | title文字下方小字 |
+| icon   | 瀑布流图标       |
+
+== categoryGroup
+G1、G2、G3 左至右依次
+
+| 参数   | 解释      |
+|------|---------|
+| name | 显示名称    |
+| icon | 显示图标    |
+| url  | 跳转链接、路径 |
+
+:::
 ::: warning
 即刻顶部需配置即刻页面
 :::
@@ -222,11 +252,6 @@ aside:
   page: # 在页面中显示的侧边栏信息
     noSticky: "about"
     Sticky: "newestPost,allInfo"
-  # 爱发电
-  power:
-    link: https://afdian.net/a/wleelw0u0
-    post: true
-    page: false
   # 侧边栏个人信息卡片
   card:
     author:
@@ -237,16 +262,21 @@ aside:
     content2: 相信你可以在这里找到对你有用的知识和教程。 # 文案2
     # 个人信息卡片底部的小图标，按照例子填写
     information:
-        Github:
-          icon: ri-github-fill
-          url: https://github.com/DuoSco/Hexo-Theme-slitude
-        Bilibili:
-          icon: ri-bilibili-fill
-          url: https://space.bilibili.com/1329819902
+      Github:
+        icon: ri-github-fill
+        url: https://github.com/DuoSco/Hexo-Theme-slitude
+      Bilibili:
+        icon: ri-bilibili-fill
+        url: https://space.bilibili.com/1329819902
     # 跳转按钮
     button:
       text: 了解更多
       url: /about/
+  # 爱发电
+  power:
+    link: https://afdian.net/a/wleelw0u0
+    post: true
+    page: false
   # 公众号二维码
   flip:
     favicon: # 右下角头像
@@ -264,9 +294,9 @@ aside:
   history:
     enable: false # 设置为true（开启）后请到上方添加home、post、page侧边栏排序显示位置
     title: #【选填】留空将默认显示为：那年今日
-    icon: 
+    icon:
   # 页面目录
-  toc: 
+  toc:
     post: true # 在文章页显示
     page: false # 在任意页显示
 
@@ -281,14 +311,80 @@ aside:
     runtime: '2023-04-20 00:00:00' # 格式：yyyy-MM-dd hh-mm-ss
 ```
 
-::: tip 关于侧边栏工具
+::: tabs
 
-个性定位的key获取可查看此篇教程文章：[Butterfly的魔改教程：个性定位信息](https://meuicat.com/blog/42#%E4%B8%AA%E6%80%A7%E5%AE%9A%E4%BD%8D%E6%AC%A2%E8%BF%8E%E8%AF%AD)，而经纬度可前往此处获取：[百度API](http://jingweidu.757dy.com/)
-个性定位Key获取：
-    1. 进入 [腾讯位置服务](https://lbs.qq.com/dev/console/application/mine) 应用管理界面
-    2. 点击 创建应用 ，应用名称和类型随便填
+== home、post、page
+想在哪个页面显示将名称添加进去
+
+| 参数       | 解释        |
+|----------|-----------|
+| noSticky | 下滑侧边栏会隐藏  |
+| Sticky   | 下滑侧边栏固定显示 |
+
+== card（个人信息）
+about
+
+| 参数          | 解释                |
+|-------------|-------------------|
+| author      | 头像以及又有右下角的状态表情    |
+| content     | 悬停about侧边栏显示文字（上） |
+| content2    | 悬停about侧边栏显示文字（下） |
+| information | 下方显示按钮            |
+
+== power（爱发电）
+
+| 参数   | 解释 |
+|------|----|
+| link | 链接 |
+
+== flip（公众号）
+
+| 参数       | 解释            |
+|----------|---------------|
+| favicon  | 右下角头像         |
+| face     | 正面图片（url）     |
+| backface | 鼠标悬停翻转图片（url） |
+
+== welcome（个性定位）
+
+| 参数        | 属性                         |
+|-----------|----------------------------|
+| enable    | 是否开启                       |
+| title     | 名称                         |
+| icon      | 自定义小图标，默认为sco-map-pin-fill |
+| key       | 腾讯地图key                    |
+| longitude | 所在经度                       |
+| Latitude  | 所在纬度                       |
+
+> 经纬度可前往此处获取：[百度API](http://jingweidu.757dy.com/)
+
+>
+腾讯key获取方式：[Butterfly的魔改教程：个性定位信息](https://meuicat.com/blog/42#%E4%B8%AA%E6%80%A7%E5%AE%9A%E4%BD%8D%E6%AC%A2%E8%BF%8E%E8%AF%AD)
+
+== history（那年今日）
+
+| 参数     | 解释   |
+|--------|------|
+| enable | 是否开启 |
+| title  | 名称   |
+| icon   | 显示图标 |
+
+== siteinfo（建站信息）
+
+| 参数            | 解释       |
+|---------------|----------|
+| postcount     | 文章数      |
+| wordcount     | 总字数      |
+| pv            | 访问了      |
+| uv            | 访客数      |
+| updatetime    | 最后更新日期   |
+| runtimeenable | 建站时间是否开启 |
+| runtime       | 建站时间     |
+
+== toc（目录）
+不需要手动添加，只要配置在哪种页面显示即可
+
 :::
-
 
 ::: warning
 建站信息：
@@ -297,6 +393,7 @@ wordcount（需要安装`hexo-wordcount`）
 :::
 
 ## 页面默认配置
+
 ```yaml
 # 页面页默认设置
 page:
@@ -338,7 +435,9 @@ post:
 ```
 
 ## 推荐文章
+
 开启后，文章底部会显示相同标签、分类的文章。
+
 ```yaml
 # 文章底部推荐文章
 related_post:

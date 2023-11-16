@@ -5,6 +5,14 @@ title: 文章统计页面配置
 
 ## 文章统计页面配置
 
+::: tip
+
+先安装echartjs
+```shell
+npm install echart
+```
+
+:::
 可以先去了解一下`echart.js`怎么工作的。
 
 1. 在cmd面板中输入以下命令，它将在source文件夹下生成`echart`目录，其中包含`index.md`​文件。
@@ -34,3 +42,9 @@ title: 文章统计页面配置
     <div id="categories-chart" data-parent="true" style="border-radius: 8px; height: 300px; padding: 10px;"></div>
     ```
 ![](https://bu.dusays.com/2023/11/01/654212c80adb6.png)
+
+::: warning
+
+有能力的可以到主题的`/scripts/helper/charts.js`进行自定义
+
+:::
