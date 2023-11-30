@@ -8,14 +8,7 @@ layout: doc
 
 ## 搭建 Hexo 博客
 
-::: danger
-主题还未适配 Hexo 7.0.0，如新安装的 Hexo-Cli，请在初始化完后手动将Hexo降级至 6.3.0 版本，我们将在不久后进行适配。
-```shell
-hexo init # 初始化
-npm un hexo # 卸载最新的Hexo
-npm install hexo@6.3.0 # 将 Hexo 手动降级至 6.3.0
-```
-:::
+主题已经适配 Hexo 7.0.0，欢迎大家下载使用。
 
 如果你还没有 Hexo 博客，请按照 [Hexo 官方文档](https://hexo.io/zh-cn/docs/) 进行安装、建站。
 
@@ -134,8 +127,7 @@ cp -rf ./node_modules/hexo-theme-solitude/_config.yml ./_config.solitude.yml
 ## 安装必要插件
 
 ```shell
-npm un hexo-renderer-marked  # 卸载默认markdown解析插件
-npm install hexo-renderer-markdown-it	# 安装另一个markdown解析器
+npm install hexo-renderer-pug hexo-renderer-stylus --save # 安装pug、stylus插件
 ```
 
 ## 本地启动

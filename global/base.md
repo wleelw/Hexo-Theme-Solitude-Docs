@@ -136,23 +136,11 @@ menu:
 | random      | 显示随机文章按钮 |
 | console     | 显示中控台按钮  |
 
-## 图标配置
-
-```yaml
-# 自定义icon
-icon:
-  customicon: https://cdn3.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css
-```
-
-::: tip
-可自行在`iconfont`、`codesign`创建图标并生成css链接
-:::
 
 ## 首页顶部配置
 
 ```yaml
 hometop:
-  bbtime: false # 即刻顶部是否开启
   banner:
     enable: true # 是否打开顶部banner
     title: 宁静致远<br>热爱生活 # 左上角显示文字
@@ -210,10 +198,6 @@ hometop:
 
 ::: tabs
 
-== bbtime
-
-首页是否显示即刻
-
 == banner
 
 | 参数     | 解释          |
@@ -231,6 +215,15 @@ G1、G2、G3 左至右依次
 | name | 显示名称    |
 | icon | 显示图标    |
 | url  | 跳转链接、路径 |
+
+## 即刻说说
+
+```yaml
+says:
+  enable: true
+  home_mini: true # 主页的即刻轮播条
+  style: 1 # 1：张洪heo样式 / 2：Leonus样式
+```
 
 :::
 ::: warning
@@ -274,9 +267,12 @@ aside:
       url: /about/
   # 爱发电
   power:
-    link: https://afdian.net/a/wleelw0u0
-    post: true
-    page: false
+    link: https://afdian.net/a/wleelw0u0 # 爱发电链接
+    list:
+      - name: 王卓Sco
+        avatar: https://bu.dusays.com/2023/11/04/6545e8a57f97b.jpg
+        descr: 宁静致远，热爱生活。
+        link: https://afdian.net/u/wleelw0u0
   # 公众号二维码
   flip:
     favicon: # 右下角头像
@@ -412,7 +408,11 @@ post:
   default:
     cover: /img/default.png
     locate: 衡阳
-    copyright: 原创
+    copyright:
+      enable: true
+      license: CC BY-NC-SA 4.0
+      licenurl: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+
   # 顶部文章简介
   meta:
     date: true # 发布日期
@@ -432,6 +432,8 @@ post:
   covercolor: #文章cover取色
     enable: true
     local: true
+  # 底部头像背景
+  author_back: https://bu.dusays.com/2023/11/01/6541f6d4b2573.png    
 ```
 
 ## 推荐文章
