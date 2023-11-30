@@ -1,6 +1,7 @@
 ---
 title: 文章统计页面配置
 ---
+
 # 页面配置📦
 
 ## 文章统计页面配置
@@ -8,6 +9,7 @@ title: 文章统计页面配置
 ::: tip
 
 先安装echartjs
+
 ```shell
 npm install echart
 ```
@@ -15,32 +17,27 @@ npm install echart
 :::
 可以先去了解一下`echart.js`怎么工作的。
 
-1. 在cmd面板中输入以下命令，它将在source文件夹下生成`echart`目录，其中包含`index.md`​文件。
+打开主题的配置项：
+> 这个页面的打开按钮只出现在about页面，如果你没有开启about页面，那么这个页面也不会出现。
 
-    ```shell
-    hexo new page echart
-    ```
+```yaml
+# 关于界面
+about:
+  enable: false # 是否开启
+  echarts: # 文章统计
+    enable: false # 是否开启
+    startDate: "2023-04-20 00:00:00" # 统计开始日期 格式：yyyy-MM-dd hh-mm-ss
+    tagLength: 10 # 标签显示数量
+    categoryParent: true # 显示父分类
+```
 
-   将`index.md`​中的内容替换成以下：
+| 参数             | 解释     |   
+|----------------|--------|
+| enable         | 是否开启   |   
+| startDate      | 统计开始日期 |   
+| tagLength      | 标签显示数量 |
+| categoryParent | 显示父分类  |
 
-    ```markdown
-    ---
-    title: 文章统计
-    date: 2023-10-31 22:15:21
-    type: echarts
-    comment: false
-    aside: false
-    ---
-    ```
-2. 以下是我的模版，按需修改，将其放置在`echart/index.md`中。
-    ```markdown
-    <!-- 文章发布统计 -->
-    <div id="posts-chart" data-start="2023-01" style="border-radius: 8px; height: 300px; padding: 10px;"></div>
-    <!-- 最高文章数的 10 个标签 -->
-    <div id="tags-chart" data-length="10" style="border-radius: 8px; height: 300px; padding: 10px;"></div>
-    <!-- 分类文章统计 -->
-    <div id="categories-chart" data-parent="true" style="border-radius: 8px; height: 300px; padding: 10px;"></div>
-    ```
 ![](https://bu.dusays.com/2023/11/01/654212c80adb6.png)
 
 ::: warning

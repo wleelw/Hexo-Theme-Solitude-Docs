@@ -165,3 +165,19 @@
         vip: true
         time: 2023-08-25
     ```
+   
+3. 修改主题配置文件`_config.solitude.yml`
+```yaml
+# 关于界面
+ about:
+    enable: false # 是否开启
+    echarts: # 文章统计
+       enable: false # 是否开启
+       startDate: "2023-04-20 00:00:00" # 统计开始日期 格式：yyyy-MM-dd hh-mm-ss
+       tagLength: 10 # 标签显示数量
+       categoryParent: true # 显示父分类
+```
+
+::: tip
+这里的echarts需要提前安装echarts插件，详情请到[文章统计页面配置](/page/echart.html)查看
+:::

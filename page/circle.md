@@ -22,6 +22,8 @@ title: 朋友圈页面配置
     type: circle
     cover: 自己的banner背景图
     desc: 最新文章订阅
+    leftend: ''
+    rightend: ''
     ---
     ```
 2. 修改主题配置文件`_config.solitude.yml`
