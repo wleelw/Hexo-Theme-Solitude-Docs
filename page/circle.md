@@ -1,6 +1,7 @@
 ---
 title: 朋友圈页面配置
 ---
+
 # 页面配置📦
 
 ## 朋友圈页面配置
@@ -31,18 +32,28 @@ title: 朋友圈页面配置
 ```yaml
 # 朋友圈配置
 circle:
-  api: https://circle.sondy.top/  # api 地址
-  error_img: /img/theme/avatar.png # 头像加载失败显示错误图片
-  sort_rule: created # 排序规则
-  expire_days: 1 # 文章缓存天数
-  page_init_number: 12 # 默认加载文章数，默认10
-  page_turning_number: 12 # 加载更多文章数，默认10
-  tips: # banner 左右下方提示文字
-    left: ""
-    right: "使用 友链朋友圈 订阅友链最新文章"
-  angle: # 钓鱼
-    enable: false
-  appjs: '/js/circle.js' # 主题appjs
-  bundlejs: '/lib/bundle.js' # 主题bundejs
+  api: https://circle.sondy.top/ # 朋友圈api
+  error_img: /img/theme/avatar.png # 加载失败显示图片
+  sort_rule: created # 排序规则（created:创建时间、updated:更新时间）
+  expire_days: 1 # 缓存过期时间（天）
+  page_init_number: 12 # 首次加载文章数，默认10
+  page_turning_number: 12 # 翻页加载文章数，默认10
+  angle: # 🎣钓鱼
+    enable: true # 是否开启
+  appjs: '/lib/circle.min.js' # 主题appjs
+  bundlejs: '/lib/bundle.min.js' # 主题bundlejs
 ```
+
+| 参数名                 | 说明                              |
+|---------------------|---------------------------------|
+| api                 | 朋友圈api                          |
+| error_img           | 加载失败显示图片                        |
+| sort_rule           | 排序规则（created:创建时间、updated:更新时间） |
+| expire_days         | 缓存过期时间（天）                       |
+| page_init_number    | 首次加载文章数，默认10                    |
+| page_turning_number | 翻页加载文章数，默认10                    |
+| angle               | 🎣钓鱼                            |
+| appjs               | 主题appjs                         |
+| bundlejs            | 主题bundlejs                      |
+
 ![](https://bu.dusays.com/2023/11/01/6541dd73b5c81.png)

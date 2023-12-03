@@ -23,7 +23,7 @@ export default defineConfig({
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
-            {text: '王卓Sco', link: 'https://blog.wzsco.top/'}
+            {text: '作者博客', link: 'https://blog.wzsco.top/'}
         ],
         footer: {
             message: 'Released under the GNU License.',
@@ -33,28 +33,28 @@ export default defineConfig({
             {
                 text: '',
                 items: [
-                    {text: '主题简介', link: '/intro'},
+                    {text: '主题简介', link: '/guide/what-is-solitude'},
                 ]
             },
             {
                 text: '快速上手',
                 items: [
-                    {text: '安装主题 💻', link: '/init'},
+                    {text: '安装主题 💻', link: '/guide/getting-started'},
                     {
                         text: '页面配置 📦', link: '', collapsed: false, items: [
-                            {text: 'Front-Matter 基本认识', link: '/page/front-matter'},
-                            {text: '404页面配置', link: '/page/404'},
+                            {text: 'Front-Matter', link: '/guide/front-matter'},
+                            {text: '标签页、分类页和404页面', link: '/guide/tag-and-category'},
                         ]
                     },
                     {
                         text: '全局配置 🧠', collapsed: false, items: [
-                            {text: '基础配置', link: '/global/base'},
-                            {text: '额外配置', link: '/global/extra'},
+                            {text: '基本配置', link: '/guide/global-base'},
+                            {text: '额外配置', link: '/guide/global-extra'},
                         ]
                     },
                     {
                         text: '进阶配置 🚀', link: '', collapsed: false, items: [
-                            {text: '全局配置', link: '/advanced/'},
+                            {text: '全局配置', link: '/guide/advanced'},
                             {text: '友情链接配置', link: '/page/links'},
                             {text: '关于页面配置', link: '/page/about'},
                             {text: '朋友圈页面配置', link: '/page/circle'},
@@ -63,6 +63,7 @@ export default defineConfig({
                             {text: '工具箱页面配置', link: '/page/tlink'},
                             {text: '订阅页面配置', link: '/page/rss'},
                             {text: '文章统计页面配置', link: '/page/echart'},
+                            {text: '豆瓣页面配置', link: '/page/douban'},
                         ]
                     },
                     {
@@ -82,7 +83,7 @@ export default defineConfig({
             provider: 'local',
             options: {
                 locales: {
-                    root: { //这里是个大坑，zh是不生效的，改为root即可
+                    root: { // Root search locale
                         translations: {
                             button: {
                                 buttonText: '搜索文档',
@@ -110,7 +111,7 @@ export default defineConfig({
             md.use(tabsMarkdownPlugin)
         },
         container: {
-            tipLabel: '提示',
+            tipLabel: '温馨提示',
             warningLabel: '警告',
             dangerLabel: '危险',
             infoLabel: '信息',
