@@ -64,6 +64,7 @@ export default defineConfig({
                             {text: '订阅页面配置', link: '/page/rss'},
                             {text: '文章统计页面配置', link: '/page/echart'},
                             {text: '豆瓣页面配置', link: '/page/douban'},
+                            {text: '音乐馆页面配置', link: '/page/music'},
                         ]
                     },
                     {

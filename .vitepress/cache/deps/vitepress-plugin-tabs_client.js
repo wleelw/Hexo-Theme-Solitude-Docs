@@ -5,8 +5,8 @@ import {
 import "./chunk-76J2PTFD.js";
 
 // node_modules/vitepress-plugin-tabs/src/client/index.ts
-import PluginTabs from "/Users/sco/Documents/GitHub/Hexo-Theme-Bugbear-Docs/node_modules/vitepress-plugin-tabs/src/client/PluginTabs.vue";
-import PluginTabsTab from "/Users/sco/Documents/GitHub/Hexo-Theme-Bugbear-Docs/node_modules/vitepress-plugin-tabs/src/client/PluginTabsTab.vue";
+import PluginTabs from "E:/OC/Desktop/iCat/GitHub/Hexo-Theme-Solitude-Docs/node_modules/vitepress-plugin-tabs/src/client/PluginTabs.vue";
+import PluginTabsTab from "E:/OC/Desktop/iCat/GitHub/Hexo-Theme-Solitude-Docs/node_modules/vitepress-plugin-tabs/src/client/PluginTabsTab.vue";
 
 // node_modules/vitepress-plugin-tabs/src/client/useTabsSelectedState.ts
 var injectionKey = "vitepress:tabSharedState";
