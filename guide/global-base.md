@@ -390,6 +390,7 @@ flip:
   favicon: # 右下角头像
   face: # 正面
   backface: # 鼠标悬停翻转图片
+  darkcolor: false # 夜间模式下是否开启卡片背景颜色 true：使用背景颜色 / false：不使用背景颜色
  ```
 
 | 参数       | 解释       |
@@ -492,7 +493,9 @@ post:
   # 文章颜色获取
   covercolor: #文章cover取色
     enable: false # 是否开启
-    local: true # 本地取色
+    mode: api #local：本地取色 / api：img2color取色（无存缓） / api_redis：img2color取色（有存缓）
+    api: https://img2color.meuicat.com/api?img=
+    time: 43200000 # api取色间隔（毫秒），默认为12小时
   # 底部头像背景
   author_back: https://bu.dusays.com/2023/11/01/6541f6d4b2573.png    
 ```
@@ -512,8 +515,8 @@ post:
 | award.wechat      | 微信收款码        |
 | award.alipay      | 支付宝收款码       |
 | award.url         | 打赏统计页面链接     |
-| covercolor.enable | 是否开启         |
-| covercolor.local  | 本地取色         |
+| covercolor.enable | 是否使用文章图片取色         |
+| covercolor.mode  | 取色模式         |
 | author_back       | 底部头像背景       |
 
 ## 推荐文章
