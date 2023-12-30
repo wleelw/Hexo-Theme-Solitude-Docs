@@ -1,0 +1,45 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "Theme-Solitude"
+  text: "An elegant Hexo theme"
+  tagline: Peaceful and far-reaching, love life.
+  image: https://bu.dusays.com/2023/11/08/654af68b25bb8.jpg
+  actions:
+    - theme: brand
+      text: Quick start
+      link: /guide/getting-started
+    - theme: alt
+      text: blurb
+      link: /guide/what-is-solitude
+    - theme: alt
+      text: QQ Group
+      link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=C8sJSH3E0Jmve_rK5lJ8U-_SLnVWNmgi&authKey=xo6hDn%2Flw5i4QcJiILAzOTi3WB19l5lxAGaVul5HCJwGgVa%2Fhd2YTCz1BZ2Pug%2BW&noverify=0&group_code=773016811
+    - theme: alt
+      text: Github
+      link: https://github.com/DuoSco/Hexo-Theme-solitude
+
+features:
+  - title: Easy
+    icon: 🚀
+    details: free To SetUp And Easy To Deploy.
+  - title: Use
+    icon: 😄
+    details: feature rich and compatible with most plugins.
+  - title: Safe
+    icon: 🔐
+    details: privacy security content security policy.
+  - title: Fast
+    icon: 🚄
+    details: extreme access speed no more waiting.
+  - title: Customize
+    icon: 🌈
+    details: highly customizable full configuration.
+  - title: Comments
+    icon: 💬
+    details: gradually adapt to a variety of comment systems.
+footer: true
+---
+
