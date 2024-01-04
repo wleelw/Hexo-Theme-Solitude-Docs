@@ -43,7 +43,7 @@ export default defineConfig({
         text: '1.2.6-beta.30',
         items: [
           { text: 'CHANGELOG', link: 'https://github.com/DuoSco/Hexo-theme-solitude/blob/dev/CHANGELOG.md' },
-          { text: 'CONTRIBUTING', link: 'https://github.com/DuoSco/Hexo-theme-solitude/blob/dev/CONTRIBUTING.md' }
+          { text: 'CONTRIBUTING', link: 'https://blog.wzsco.top/update/' }
         ]
       }
     ],
