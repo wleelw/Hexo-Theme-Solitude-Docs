@@ -82,8 +82,14 @@ loading:
 ```yaml
 #代码高亮增强
 hightlight:
-  enable: true # 是否开启
-  hightlimit: 200 # 代码高亮高度限制
+   enable: false
+   # 代码块行高限制
+   hightlimit: 200
+   copy: true # 是否开启复制按钮
+   expand: false # 是否默认展开
+   # 代码块样式
+   theme: default # default: 默认 / mac
+   color: default # default: 默认  / vscode / solarized-dark / solarized-light / dracula / monokai
 ```
 ::: tip
 开启代码高亮后，代码块会有对应的语言提示，但是会增加网页体积，如果你不需要这个功能，可以关闭。
